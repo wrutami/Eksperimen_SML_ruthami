@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   preprocess:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # Python 3.12.7 tersedia di image ini
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
